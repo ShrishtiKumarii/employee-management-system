@@ -1,0 +1,14 @@
+# PostgreSQL credentials
+src/main/resources/db.properties
+
+# Maven build files
+target/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db

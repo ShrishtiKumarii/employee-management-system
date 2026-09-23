@@ -1,0 +1,5 @@
+db.url =jdbc:postgresql://localhost:5432/employee-management
+
+db.username = dbname
+
+db.password= pwd
