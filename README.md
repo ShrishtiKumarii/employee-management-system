@@ -171,7 +171,7 @@ src/main/resources/database.sql
 
 A short demonstration of the application showing the main CRUD operations, search functionality, update flow, and delete functionality.
 
-_Demo video will be added here._
+[▶️ Watch Project Demo](demovideo.mp4)
 
 ## 📁 Project Structure
 
