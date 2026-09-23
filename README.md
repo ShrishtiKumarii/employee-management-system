@@ -92,23 +92,23 @@ Open the application in your browser.
 
 ### Home Page
 
-![Home Page](HomePage.png)
+![Home Page](./HomePage.png)
 
 ### Add Employee
 
-![Add Employee](addEmployee.png)
+![Add Employee](./addEmployee.png)
 
 ### Employee List
 
-![Employee List](viewEmployee.png)
+![Employee List](./viewEmployee.png)
 
 ### Edit Employee
 
-![Edit Employee](editEmployee.png)
+![Edit Employee](./editEmployee.png)
 
 ### Delete Employee
 
-![Delete Employee](delete.png)
+![Delete Employee](./delete.png)
 🎥 Project Demo
 A short demonstration of the application showing the main CRUD operations, search functionality, update flow, and delete functionality.
 Add demo video here.
