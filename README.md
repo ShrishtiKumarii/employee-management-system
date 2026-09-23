@@ -88,17 +88,27 @@ Add your PostgreSQL username and password.
 Configure Apache Tomcat 9 in Eclipse.
 Run the project on the Tomcat server.
 Open the application in your browser.
-📸 Screenshots
-Home Page
-Add screenshot here.
-Add Employee
-Add screenshot here.
-Employee List
-Add screenshot here.
-Search Employee
-Add screenshot here.
-Edit Employee
-Add screenshot here.
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](HomePage.png)
+
+### Add Employee
+
+![Add Employee](addEmployee.png)
+
+### Employee List
+
+![Employee List](viewEmployee.png)
+
+### Edit Employee
+
+![Edit Employee](editEmployee.png)
+
+### Delete Employee
+
+![Delete Employee](delete.png)
 🎥 Project Demo
 A short demonstration of the application showing the main CRUD operations, search functionality, update flow, and delete functionality.
 Add demo video here.
