@@ -32,87 +32,150 @@ Controller → DAO → Database
    Model
      ↓
     JSP
-Controller
+```
+
+### Controller
+
 Servlets handle HTTP requests, responses, and application flow.
-DAO
-EmployeeDAO handles database operations using JDBC.
-Model
-The Employee class represents employee data and contains the employee attributes.
-JSP
+
+### DAO
+
+`EmployeeDAO` handles database operations using JDBC.
+
+### Model
+
+The `Employee` class represents employee data and contains the employee attributes.
+
+### JSP
+
 JSP pages are used to display dynamic content and provide the user interface.
+
 This separation keeps the application organized and makes each layer responsible for a specific task.
-📚 What I Learned
+
+## 📚 What I Learned
+
 Building this project helped me understand how a Java web application works using core Java web technologies.
+
 Through this project, I practiced:
-Handling HTTP requests and responses using Servlets
-Rendering dynamic pages using JSP
-Connecting Java applications to PostgreSQL using JDBC
-Performing CRUD operations
-Implementing the DAO pattern
-Using Maven for dependency management
-Running a Java web application using Apache Tomcat
-Separating controller, database, and model responsibilities
+
+- Handling HTTP requests and responses using Servlets
+- Rendering dynamic pages using JSP
+- Connecting Java applications to PostgreSQL using JDBC
+- Performing CRUD operations
+- Implementing the DAO pattern
+- Using Maven for dependency management
+- Running a Java web application using Apache Tomcat
+- Separating controller, database, and model responsibilities
+
 These concepts provide a strong foundation for understanding frameworks such as Spring and Spring Boot.
-🗄️ Database Setup
+
+## 🗄️ Database Setup
+
 This project uses PostgreSQL.
+
 The database table structure is available in:
+
+```text
 src/main/resources/database.sql
-Database Configuration
+```
+
+### Database Configuration
+
 A sample configuration file is provided:
+
+```text
 src/main/resources/db.properties.example
+```
+
 Create your own:
+
+```text
 src/main/resources/db.properties
+```
+
 and add your local PostgreSQL credentials.
+
 Example:
+
+```properties
 db.url=jdbc:postgresql://localhost:5432/employee-management
 db.username=your_postgresql_username
 db.password=your_postgresql_password
-🔒 db.properties is excluded from GitHub using .gitignore to protect database credentials.
-▶️ How to Run
-Prerequisites
+```
+
+> 🔒 `db.properties` is excluded from GitHub using `.gitignore` to protect database credentials.
+
+## ▶️ How to Run
+
+### Prerequisites
+
 Make sure you have:
-Java 8 or later
-Eclipse IDE
-PostgreSQL
-Apache Tomcat 9
-Maven
-Steps
-Clone the repository:
+
+- Java 8 or later
+- Eclipse IDE
+- PostgreSQL
+- Apache Tomcat 9
+- Maven
+
+### Steps
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/ShrishtiKumarii/employee-management-system.git
-Import the project into Eclipse as a Maven project.
-Create the PostgreSQL database.
-Run the SQL script:
+```
+
+2. Import the project into Eclipse as a Maven project.
+
+3. Create the PostgreSQL database.
+
+4. Run the SQL script:
+
+```text
 src/main/resources/database.sql
-Create db.properties using db.properties.example.
-Add your PostgreSQL username and password.
-Configure Apache Tomcat 9 in Eclipse.
-Run the project on the Tomcat server.
-Open the application in your browser.
+```
+
+5. Create `db.properties` using `db.properties.example`.
+
+6. Add your PostgreSQL username and password.
+
+7. Configure Apache Tomcat 9 in Eclipse.
+
+8. Run the project on the Tomcat server.
+
+9. Open the application in your browser.
+
 ## 📸 Screenshots
 
 ### Home Page
 
-![Home Page](./HomePage.png)
+![Home Page](HomePage.png)
 
 ### Add Employee
 
-![Add Employee](./addEmployee.png)
+![Add Employee](addEmployee.png)
 
 ### Employee List
 
-![Employee List](./viewEmployee.png)
+![Employee List](viewEmpoyee.png)
 
 ### Edit Employee
 
-![Edit Employee](./editEmployee.png)
+![Edit Employee](editEmployee.png)
 
 ### Delete Employee
 
-![Delete Employee](./delete.png)
-🎥 Project Demo
+![Delete Employee](delete.png)
+
+## 🎥 Project Demo
+
 A short demonstration of the application showing the main CRUD operations, search functionality, update flow, and delete functionality.
-Add demo video here.
-📁 Project Structure
+
+_Demo video will be added here._
+
+## 📁 Project Structure
+
+```text
 employee-management
 │
 ├── .gitignore
@@ -149,12 +212,23 @@ employee-management
 │           └── style.css
 │
 └── README.md
-🔐 Security Note
-Database credentials are stored locally in db.properties and are not committed to the repository.
-The repository contains db.properties.example as a template so that other developers can configure their own database credentials.
-👩‍💻 Author
-Shrishti Kumari
+```
+
+## 🔐 Security Note
+
+Database credentials are stored locally in `db.properties` and are not committed to the repository.
+
+The repository contains `db.properties.example` as a template so that other developers can configure their own database credentials.
+
+## 👩‍💻 Author
+
+**Shrishti Kumari**
+
 B.Tech Graduate | Java Full Stack Developer
-GitHub: https://github.com/ShrishtiKumarii⁠�
-LinkedIn: https://linkedin.com/in/shrishti-kumari-dev�
+
+- GitHub: https://github.com/ShrishtiKumarii
+- LinkedIn: https://linkedin.com/in/shrishti-kumari-dev
+
+---
+
 ⭐ Thank you for checking out this project!
